@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <style>
+        .vpricing {
+            /* text-align: center; */
+            /* border: 1px solid red; */
+            margin-left: 80px;
+        }
+        .start{
+            width:50%;
+            margin: auto;
+            font-size: 20px;
+            font-weight: bolder;
+            /* text-align: center; */
+            margin-bottom: -40px;
+            /* border: 1px solid red; */
+            margin-left: 80px;
+        }
+
+        .vbutton {
+            width: 25%;
+            border: 1px solid;
+            display: flex;
+            margin: auto;
+            border-radius: 30px;
+
+        }
+        
+
+        button {
+            cursor: pointer;
+            width: 50%;
+            height: 60px;
+            border-radius: 30px;
+            font-size: 20px;
+            border: 0;
+        }
+
+    
+        button:focus {
+            background-color: #48505e;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            /* cursor: pointer; */
+            margin: auto;
+            width: 88%;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 20px;
+            
+        }
+        .container .displaygrid a{
+            color: black;
+        }
+
+        .card {
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            padding: 8%;
+            border-radius: 4px;
+            height: 400px;
+        }
+        .card img{
+            margin: -13px;
+            height: 200px;
+            width: 210px;
+        }
+
+    
+         /* small */
+         @media only screen and (min-width:0px) and (max-width:320px) {
+            .container{
+                grid-template-columns: repeat(1,1fr);
+                
+               
+            }
+              h2{
+                    font-size: 15px;
+                }
+                p{
+                font-size: 10px;
+                }
+           
+            
+        }
+        /* medium */
+        @media only screen and (min-width:321px) and (max-width:720px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+                
+            }
+           
+            h2{
+                    font-size: 15px;
+            }
+            p{
+                font-size: 10px;
+            }
+            
+        }
+      
+        /* body{
+            font-family: Arial, Helvetica, sans-serif;
+        } */
+        
+    </style>
+    <!-- <link rel="stylesheet" href="pricing_style.css"> -->
+</head>
+
+<body>
+
+
+    <div class="vpricing">
+       <h2>Men Top Wear</h2> 
+    </div>
+    <div class="start">
+        
+        Showing 1-20 out of 224858 Products
+    </div>
+ 
+    <br><br><br><br><br>
+    <div class="container">
+        <div class="displaygrid">
+            <a href="./payment.html">
+            <div class="card">
+                <img src="https://images.meesho.com/images/products/10944341/b7d98_512.jpg" alt="">
+                <h2 class="type">Black TShirt</h2>
+                <p>Limited period deal</p>
+                <br>
+                <br>
+                <h2 class="price">₹199</h2>
+                <p class="per">Free Delivery</p> </a>
+                <br>
+                <br>
+               
+                
+ 
+            </div>
+        
+        </div>
+        <div class="displaygrid">
+            <a href="./payment.html">
+            <div class="card">
+                <img src="https://images.meesho.com/images/products/29924781/oo9y0_512.jpg" alt="">
+                <h2 class="type">Khaki Dress</h2>
+                <p>For individual fashion creators</p>
+                <br>
+                
+                <h2 class="price">₹ 599</h2>
+                <p class="per">Free Delivery</p> </a>
+                <br> <br>
+                
+
+            </div>
+    
+        </div>
+        <div class="displaygrid">
+            <a href="./payment.html">
+            <div class="card">
+                <img src="https://images.meesho.com/images/products/42431182/rmryc_512.jpg" alt="">
+                <h2 class="type">Cathelic Tees</h2>
+                <p>DedLicor</p>
+                <br>
+                <br>
+                <h2 class="price">₹ 99</h2>
+                <p class="per">85% Off</p> </a>
+                <br>
+                <br>
+               
+
+            </div>
+      
+        </div>
+        <div class="displaygrid">
+            <a href="./payment.html">
+            <div class="card">
+                <img src="https://images.meesho.com/images/products/21016169/04fd9_512.jpg" alt="">
+                <h2 class="type">Treendy Modern</h2>
+                <p> For brands focused on reach and growth</p>
+                <br>
+                <!-- <br> -->
+                <h2 class="price">₹ 359</h2>
+                <p class="per">Buy 1 get 1 free</p> </a>
+                <br>
+                <br>
+                
+            </div>
+    
+        </div>
+        <div class="displaygrid">
+            <a href="./payment.html">
+            <div class="card">
+                <img src="https://images.meesho.com/images/products/42568142/wtwzy_512.jpg" alt="">
+                <h2 class="type">Fabric Shirt
+                </h2>
+                <p>For boys</p>
+                <br>
+                <br>
+                <h2 class="price">₹ 1999</h2>
+                <p class="per"> Free Delivery</p>  </a>
+                <br>
+                <br>
+               
+            </div>
+    
+        </div>
+    </div>
+   
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+<script>
+
+//   var data=[
+//       {
+//       "type":"Creator",
+//       "price":"$0",
+//       "per":"For Ever Free"
+//       },
+//       {
+//       "type":"Community",
+//       "price":"$11 USD",
+//       "per":"per month" 
+
+//       },
+//       {
+//         "type":"Premium",
+//       "price":"$59 USD",
+//       "per":"per month"
+//       },
+//        {
+//         "type":"Business",
+//       "price":"$149 USD",
+//       "per":"per month"
+//        },
+//        {
+//         "type":"Enterprise",
+//       "price":"Cuustom",
+//       "per":""
+//        }]
+
+   
+//    document.querySelector(".yearly").addEventListener("click",function(){
+//        data.map(function(elem){
+//            document.querySelector(".type").textContent=elem.type;
+//            document.querySelector(".price").textContent=elem.price;
+//            document.querySelector(".per").textContent=elem.per
+
+//        })
+//    })
+    
+    
+   
+    // var arr=[]
+    // var button=document.getElementsByClassName("card");
+    // button.map(function(elem){
+    //     console.log(elem)
+    // })
+    
+    // console.log(button[1].document.querySelector("p")
+    
+    // button.addEventListener("click",upgrade)
+    // function upgrade(){
+    //     // event.preventDefault()
+    //     var x=document.querySelector(".card");
+    
+    // console.log(x)
+
+    // }
+  
+</script>
